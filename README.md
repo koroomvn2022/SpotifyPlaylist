@@ -8,11 +8,11 @@ Bài tập này tạo ra một playlist trên Spotify chứa 100 bài hát từ 
 
 1. **Tạo ứng dụng trên Spotify Developer**: Đầu tiên, tạo một ứng dụng trên Spotify Developer để lấy `client_id` và `client_secret`.
 
-2. **Lấy ủy quyền**: Sử dụng `client_id` và `client_secret` để lấy Access Token từ Spotify (xem tệp `get_credential`).
+2. **Lấy ủy quyền**: Sử dụng `client_id` và `client_secret` để lấy Access Token từ Spotify (xem `get_credential`).
 
-3. **Thu thập dữ liệu từ Billboard**: Sử dụng thư viện Requests và BeautifulSoup để thu thập 100 bài hát từ Billboard Hot 100 (xem tệp `get_track`).
+3. **Thu thập dữ liệu từ Billboard**: Sử dụng thư viện Requests và BeautifulSoup để thu thập 100 bài hát từ Billboard Hot 100 (xem `get_track`).
 
-4. **Tạo danh sách phát trên Spotify**: Cuối cùng, sử dụng thư viện Requests để tạo một danh sách phát trên Spotify chứa 100 bài hát đã thu thập từ Billboard (xem tệp `create_playlist`).
+4. **Tạo danh sách phát trên Spotify**: Cuối cùng, sử dụng thư viện Requests để tạo một danh sách phát trên Spotify chứa 100 bài hát đã thu thập từ Billboard (xem `create_playlist`).
 
 ## Công Nghệ
 
